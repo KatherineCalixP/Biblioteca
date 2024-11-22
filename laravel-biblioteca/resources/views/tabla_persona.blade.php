@@ -4,6 +4,6 @@
 @section('PAG_GRUPO', 'Modulos')                <!-- El modulo que pertenece la paginal -->
 @section('content')                             <!-- section() y endsection() siempre van -->
 
-hola
+hola SOY CRISTHIAN
 
 @endsection
