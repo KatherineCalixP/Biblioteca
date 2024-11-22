@@ -13,3 +13,4 @@ correr el servidor laravel
 
 para iconos:
 	https://fontawesome.com/v4/icons/
+	https://icons.getbootstrap.com/					<- este es mejor

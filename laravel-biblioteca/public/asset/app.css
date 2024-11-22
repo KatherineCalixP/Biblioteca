@@ -38,3 +38,59 @@
 
 
 
+.btn_editar {
+    background-color: #ff9800; /* Fondo naranja */
+    color: #fff; /* Texto blanco */
+    border: none; /* Sin borde */
+    border-radius: 10px; /* Esquinas redondeadas */
+    padding: 8px 16px; /* Espaciado interno */
+    font-size: 16px; /* Tamaño de texto */
+    cursor: pointer; /* Cambia el cursor a puntero */
+    transition: background-color 0.3s ease; /* Suaviza el cambio de fondo */
+}
+
+/* Efecto al pasar el mouse */
+.btn_editar:hover {
+    background-color: #e68900; /* Naranja más oscuro al pasar el mouse */
+}
+.btn_eliminar {
+    background-color: #ff2f00; /* Fondo naranja */
+    color: #fff; /* Texto blanco */
+    border: none; /* Sin borde */
+    border-radius: 10px; /* Esquinas redondeadas */
+    padding: 8px 16px; /* Espaciado interno */
+    font-size: 16px; /* Tamaño de texto */
+    cursor: pointer; /* Cambia el cursor a puntero */
+    transition: background-color 0.3s ease; /* Suaviza el cambio de fondo */
+}
+
+/* Efecto al pasar el mouse */
+.btn_eliminar:hover {
+    background-color: #e60000; /* Naranja más oscuro al pasar el mouse */
+}
+
+/* Contenedor de los botones */
+.button-group {
+    display: inline-flex; /* Hace que los botones estén en línea y juntos */
+    border-radius: 10px; /* Redondea todo el grupo */
+    overflow: hidden; /* Esconde los bordes internos redondeados */
+    border: 1px solid #ccc; /* Opcional: Añade un borde conjunto */
+}
+
+/* Botón individual sin bordes externos */
+.button-group .btn_editar,
+.button-group .btn_eliminar {
+    border-radius: 0; /* Sin esquinas redondeadas dentro del grupo */
+    margin: 0; /* Elimina el margen entre botones */
+}
+
+/* Botón izquierdo */
+.button-group .btn_editar {
+    border-radius: 10px 0 0 10px; /* Esquinas redondeadas izquierdas */
+}
+
+/* Botón derecho */
+.button-group .btn_eliminar {
+    border-radius: 0 10px 10px 0; /* Esquinas redondeadas derechas */
+}
+
