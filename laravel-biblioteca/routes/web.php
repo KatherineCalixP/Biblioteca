@@ -21,12 +21,11 @@ Route::get('/index', function () {
 });
 
 
-Route::get('/table',
-
-
-function () {
+Route::get('/table',function () {
     return view('tabla_persona');
-}
+});
 
 
-);
+Route::get('/login',function () {
+    return view('login.login');
+});
