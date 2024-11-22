@@ -1,0 +1,15 @@
+instalacion de laravel
+	cmd:laravel new <nombre_de_la_carpeta>
+
+correr el servidor laravel
+	cmd:php artisan serve
+
+
+
+
+
+
+
+
+para iconos:
+	https://fontawesome.com/v4/icons/
