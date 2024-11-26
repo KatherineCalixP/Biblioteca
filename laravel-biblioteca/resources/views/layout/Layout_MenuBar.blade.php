@@ -27,21 +27,46 @@
 
     <!-- dentro del button -->
     <ul class="nav nav-treeview">
+
+        <li class="nav-header"><i class="bi bi-circle-fill"></i> <span>Usuarios </span></li>
+
         <li class="nav-item">
             <a href="{{url('index')}}" class="nav-link nav_link_tree">
-                <i class="far fa-circle nav-icon"></i> <p>Dashboard v1</p>
+                <i class="far fa-circle nav-icon"></i> <p>Tabla</p>
             </a>
         </li>
         <li class="nav-item">
             <a href="{{url('index')}}" class="nav-link nav_link_tree">
-                <i class="far fa-circle nav-icon"></i> <p>Dashboard v2</p>
+                <i class="far fa-circle nav-icon"></i> <p>Pendientes</p>
+            </a>
+        </li>
+
+
+
+        <li class="nav-header"><i class="bi bi-circle-fill"></i> <span>Seguridad </span></li>
+
+        <li class="nav-item">
+            <a href="{{url('index')}}" class="nav-link nav_link_tree">
+             <i class="far fa-circle nav-icon"></i> <p>Roles</p>
             </a>
         </li>
         <li class="nav-item">
             <a href="{{url('index')}}" class="nav-link nav_link_tree">
-             <i class="far fa-circle nav-icon"></i> <p>Dashboard v3</p>
+             <i class="far fa-circle nav-icon"></i> <p>Bitacora</p>
             </a>
         </li>
+        <li class="nav-item">
+            <a href="{{url('index')}}" class="nav-link nav_link_tree">
+             <i class="far fa-circle nav-icon"></i> <p>Permisos</p>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a href="{{url('index')}}" class="nav-link nav_link_tree">
+             <i class="far fa-circle nav-icon"></i> <p>Parametros</p>
+            </a>
+        </li>
+
+
     </ul>
     <!-- /.dentro del button -->
 </li>

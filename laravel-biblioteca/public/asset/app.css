@@ -39,7 +39,7 @@
 
 
 .btn_editar {
-    background-color: #ff9800; /* Fondo naranja */
+    background-color: #e68900; /* Fondo naranja */
     color: #fff; /* Texto blanco */
     border: none; /* Sin borde */
     border-radius: 10px; /* Esquinas redondeadas */
@@ -51,10 +51,10 @@
 
 /* Efecto al pasar el mouse */
 .btn_editar:hover {
-    background-color: #e68900; /* Naranja más oscuro al pasar el mouse */
+    background-color: #ff9900; /* Naranja más oscuro al pasar el mouse */
 }
 .btn_eliminar {
-    background-color: #ff2f00; /* Fondo naranja */
+    background-color: #DC4539; /* Fondo naranja */
     color: #fff; /* Texto blanco */
     border: none; /* Sin borde */
     border-radius: 10px; /* Esquinas redondeadas */
