@@ -21,9 +21,19 @@ Route::get('/table_material',function () {   return view('Modulos.Material.tabla
 
 
 
-Route::get('/table',function () {
-    return view('tabla_persona');
-});
 
 
+
+
+
+
+
+
+///ejemplos
+
+Route::get('/ejemplo_tabla',function () {   return view('ejemplos.tabla'); });
+
+Route::get('/ejemplo_formulario',function () {   return view('ejemplos.formulario'); });
+
+Route::get('/ejemplo_proceso',function () {   return view('ejemplos.proceso'); });
 
