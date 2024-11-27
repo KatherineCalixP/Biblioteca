@@ -73,12 +73,16 @@
                 <!-- botones de enlace -->
                 <!-- botones de enlace -->
                 <li class="nav-item d-none d-sm-inline-block">
-                    <a href="index3.html" class="nav-link nav_link_bar">Home</a>
+                    <a href="#"id="backButton" class="nav-link nav_link_bar">Volver</a>
+                </li>
+                <li class="nav-item d-none d-sm-inline-block">
+                    <a href="" class="nav-link nav_link_bar">Home</a>
                 </li>
 
                 <li class="nav-item d-none d-sm-inline-block">
                     <a href="#" class="nav-link nav_link_bar">Soporte</a>
                 </li>
+
                 <!-- /.botones de enlace -->
                 <!-- /.botones de enlace -->
                 <!-- /.botones de enlace -->
@@ -281,7 +285,20 @@
                     "responsive": true,
                 });
             });
+
+            document.addEventListener('DOMContentLoaded', function () {
+            const backButton = document.getElementById('backButton');
+            if (window.location.pathname === '/Index' ||window.location.pathname === '/' ) {
+                backButton.style.display = 'none';
+            }
+            backButton.addEventListener('click', function () {
+                window.history.back();
+            });
+        });
         </script>
+
+
+
     </div>
     <!-- ./SCRIPTS -->
 </body>

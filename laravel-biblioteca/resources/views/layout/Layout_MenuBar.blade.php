@@ -91,7 +91,7 @@
     <ul class="nav nav-treeview">
         <li class="nav-item">
             <a href="{{url('table_material')}}" class="nav-link nav_link_tree">
-                <i class="far fa-circle nav-icon"></i> <p>Tabla Material</p>
+                <i class="far fa-circle nav-icon"></i> <p>material</p>
             </a>
         </li>
         <li class="nav-item">
