@@ -32,18 +32,18 @@
 
         <li class="nav-item">
             <a href="{{url('index')}}" class="nav-link nav_link_tree">
-                <i class="far fa-circle nav-icon"></i> <p>Tabla</p>
+                <i class="far fa-circle nav-icon"></i> <p>usuarios</p>
             </a>
         </li>
         <li class="nav-item">
             <a href="{{url('index')}}" class="nav-link nav_link_tree">
-                <i class="far fa-circle nav-icon"></i> <p>Pendientes</p>
+                <i class="far fa-circle nav-icon"></i> <p>usuarios pendientes</p>
             </a>
         </li>
 
 
 
-        <li class="nav-header"><i class="bi bi-circle-fill"></i> <span>Seguridad </span></li>
+        <li class="nav-header"><i class="bi bi-circle-fill"></i> <span> Seguridad </span></li>
 
         <li class="nav-item">
             <a href="{{url('index')}}" class="nav-link nav_link_tree">
@@ -90,8 +90,8 @@
     <!-- dentro del button -->
     <ul class="nav nav-treeview">
         <li class="nav-item">
-            <a href="{{url('index')}}" class="nav-link nav_link_tree">
-                <i class="far fa-circle nav-icon"></i> <p>Dashboard v1</p>
+            <a href="{{url('table_material')}}" class="nav-link nav_link_tree">
+                <i class="far fa-circle nav-icon"></i> <p>Tabla Material</p>
             </a>
         </li>
         <li class="nav-item">
