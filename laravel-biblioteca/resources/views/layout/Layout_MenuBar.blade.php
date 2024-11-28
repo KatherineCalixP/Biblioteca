@@ -68,7 +68,7 @@
 
         <li class="nav-item">
             <a href="{{url('table_bitacora')}}" class="nav-link nav_link_tree">
-                <i class="far fa-circle nav-icon"></i> <p>premisos</p>
+                <i class="far fa-circle nav-icon"></i> <p>permisos</p>
             </a>
         </li>
         <li class="nav-item">
@@ -111,7 +111,7 @@
 
         <li class="nav-item">
             <a href="{{url('table_material')}}" class="nav-link nav_link_tree">
-                <i class="far fa-circle nav-icon"></i> <p>tabla de materiales</p>
+                <i class="far fa-circle nav-icon"></i> <p>Tabla de materiales</p>
             </a>
         </li>
         <li class="nav-item">
@@ -211,12 +211,12 @@
 
         <li class="nav-item">
             <a href="{{url('table_repocitorioMaterial')}}" class="nav-link nav_link_tree">
-                <i class="far fa-circle nav-icon"></i> <p>repocitorio de material</p>
+                <i class="far fa-circle nav-icon"></i> <p>repositorio de material</p>
             </a>
         </li>
         <li class="nav-item">
             <a href="{{url('table_repocitorioAudiovideo')}}" class="nav-link nav_link_tree">
-                <i class="far fa-circle nav-icon"></i> <p>repocitorio de audiovideo</p>
+                <i class="far fa-circle nav-icon"></i> <p>repositorio de audiovideo</p>
             </a>
         </li>
     </ul>
