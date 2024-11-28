@@ -288,7 +288,7 @@
 
             document.addEventListener('DOMContentLoaded', function () {
             const backButton = document.getElementById('backButton');
-            if (window.location.pathname === '/Index' ||window.location.pathname === '/' ) {
+            if (window.location.pathname === '/index' || window.location.pathname === '/' ) {
                 backButton.style.display = 'none';
             }
             backButton.addEventListener('click', function () {
