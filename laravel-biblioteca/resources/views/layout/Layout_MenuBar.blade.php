@@ -226,7 +226,7 @@
 <!--########################################################################################################################################-->
 
 <!-- CABECERA-->
-<li class="nav-header">Gestiones y procesos</li>
+<li class="nav-header">Gestiones y Procesos</li>
 
 <!-- BODY-->
 <li class="nav-item">
